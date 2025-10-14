@@ -477,5 +477,20 @@
     "reward": 1,
     "timestamp": 1760434335953,
     "hash": "000006bbb6455030aabf7ae3b0886bb5c744c34a0adfdceffb75317fd3df791f"
+  },
+  {
+    "prevHash": "000006bbb6455030aabf7ae3b0886bb5c744c34a0adfdceffb75317fd3df791f",
+    "transactions": [
+      {
+        "from": null,
+        "to": "04236fa5fc007e714de992674d98e4e60720ac42178dcadd75020586a9c37a7424c4340c8ee0a98beb104ea0246843d0c66de37f01c11f1f9edbb49a7bd712f8b2",
+        "amount": 1
+      }
+    ],
+    "nonce": 494734,
+    "miner": "04236fa5fc007e714de992674d98e4e60720ac42178dcadd75020586a9c37a7424c4340c8ee0a98beb104ea0246843d0c66de37f01c11f1f9edbb49a7bd712f8b2",
+    "reward": 1,
+    "timestamp": 1760434449548,
+    "hash": "000001a473657ab69437a319204db6c32459282362f148b1c5f51f4691a22f7e"
   }
 ]
