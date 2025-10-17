@@ -3078,5 +3078,15 @@
     "miner": "049a1e45006643e8df11925e961b8b6af8393755bc159f3004f18d2ad15baa0990a8eac7dcf3f8bd155cb47b010033ec6cc1388cbd3acd073db0595ebfab8ec6a0",
     "time": 1760694001527,
     "reward": 1
+  },
+  {
+    "miner": "049a1e45006643e8df11925e961b8b6af8393755bc159f3004f18d2ad15baa0990a8eac7dcf3f8bd155cb47b010033ec6cc1388cbd3acd073db0595ebfab8ec6a0",
+    "time": 1760694782777,
+    "reward": 1
+  },
+  {
+    "miner": "049a1e45006643e8df11925e961b8b6af8393755bc159f3004f18d2ad15baa0990a8eac7dcf3f8bd155cb47b010033ec6cc1388cbd3acd073db0595ebfab8ec6a0",
+    "time": 1760694782779,
+    "reward": 1
   }
 ]
