@@ -2,10 +2,19 @@
   {
     "encryptedEmail": "71f6bd646c3fda332d0ae4a9c96f348fa3d13a623667e1bcaa4678779b4d1bd102bfa90422",
     "courseId": "CSS",
-    "courseName": "Поглиблений курс CSS",   
+    "courseName": "Поглиблений курс CSS",
     "price": 5000,
     "wallet": "04f95f0008332e504236c55397380e6238b447ffbc9fceea287335b28a53bbe59ebcb547a4f2e0913145916aec08108d310579740e6e4a3deb4dc9f0cca847dd47",
     "txSignature": "3045022100b133d363466fa86b8f21257ebf208f6804272d7215acfd08074757385866fbbb02207dab4e08edf59407fed1772340f0f79e1dabcd0a1b856b0ae0214d0fe93d1deb",
-    "timestamp": 1765659878584  
+    "timestamp": 1765659878584
+  },
+  {
+    "encryptedEmail": "bfd979d4136481f70d07f160247ca3e0a860e0b3600d8d09b0f63a49bf4284069624cc09c1",
+    "courseId": "CYBERSECURITY",
+    "courseName": "Основи Кібербезпеки",
+    "price": 5000,
+    "wallet": "04f95f0008332e504236c55397380e6238b447ffbc9fceea287335b28a53bbe59ebcb547a4f2e0913145916aec08108d310579740e6e4a3deb4dc9f0cca847dd47",
+    "txSignature": "304502210098dc28b45055cb0a6df86cda6832b68e85d858ac3247499dbe641d1219db53dc0220415322e8728990ab8b117d4d9d26df299aa80106d836e9ed08fbffa8fb744c89",
+    "timestamp": 1765661528534
   }
 ]
