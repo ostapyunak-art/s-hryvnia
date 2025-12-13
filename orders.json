@@ -1,1 +1,11 @@
-"[\n  {\n    \"encryptedEmail\": \"71f6bd646c3fda332d0ae4a9c96f348fa3d13a623667e1bcaa4678779b4d1bd102bfa90422\",\n    \"courseId\": \"CSS\",\n    \"courseName\": \"Поглиблений курс CSS\",\n    \"price\": 5000,\n    \"wallet\": \"04f95f0008332e504236c55397380e6238b447ffbc9fceea287335b28a53bbe59ebcb547a4f2e0913145916aec08108d310579740e6e4a3deb4dc9f0cca847dd47\",\n    \"txSignature\": \"3045022100b133d363466fa86b8f21257ebf208f6804272d7215acfd08074757385866fbbb02207dab4e08edf59407fed1772340f0f79e1dabcd0a1b856b0ae0214d0fe93d1deb\",\n    \"timestamp\": 1765659878584\n  }\n]"
+[
+  {
+    "encryptedEmail": "71f6bd646c3fda332d0ae4a9c96f348fa3d13a623667e1bcaa4678779b4d1bd102bfa90422",
+    "courseId": "CSS",
+    "courseName": "Поглиблений курс CSS",   
+    "price": 5000,
+    "wallet": "04f95f0008332e504236c55397380e6238b447ffbc9fceea287335b28a53bbe59ebcb547a4f2e0913145916aec08108d310579740e6e4a3deb4dc9f0cca847dd47",
+    "txSignature": "3045022100b133d363466fa86b8f21257ebf208f6804272d7215acfd08074757385866fbbb02207dab4e08edf59407fed1772340f0f79e1dabcd0a1b856b0ae0214d0fe93d1deb",
+    "timestamp": 1765659878584  
+  }
+]
