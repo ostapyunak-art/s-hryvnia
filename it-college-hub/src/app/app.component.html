@@ -1,0 +1,44 @@
+<ion-app>
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-title><span class="brand-mark">IT</span> College Hub</ion-title>
+      <ion-buttons slot="end"><ion-chip color="success"><ion-icon name="ellipse"></ion-icon><ion-label>Demo</ion-label></ion-chip></ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">DIGITAL LEARNING SPACE</div>
+          <h1>Ідеї, знання<br><span>та можливості.</span></h1>
+          <p>Єдиний простір для навчальних матеріалів, студентських проєктів та обміну досвідом.</p>
+          <div class="hero-actions"><ion-button (click)="title='Мій перший проєкт'; document.getElementById('create')?.scrollIntoView({behavior:'smooth'})">Створити публікацію <ion-icon name="arrow-forward" slot="end"></ion-icon></ion-button><span class="secure"><ion-icon name="shield-checkmark-outline"></ion-icon> Навчальний демопроєкт</span></div>
+        </div>
+        <div class="hero-art"><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="glass-card"><div class="code-top"><i></i><i></i><i></i><span>learning.ts</span></div><div class="code-lines"><b>const</b> future = <em>'yours'</em>;<br><b>function</b> <strong>learn</strong>() {<br>&nbsp;&nbsp;return <span>newSkills</span>;<br>}<div class="code-foot">✦ build something meaningful</div></div></div><div class="floating-tag">⌘ &nbsp; CREATE • LEARN • SHARE</div></div>
+      </section>
+      <section class="stats">
+        <div><strong>01</strong><span>Освітній простір</span></div><div><strong>∞</strong><span>Можливості розвитку</span></div><div><strong>24/7</strong><span>Доступ до ідей</span></div>
+      </section>
+      <section class="content-grid">
+        <div class="section-heading"><div><div class="eyebrow">COMMUNITY BOARD</div><h2>Стрічка спільноти</h2></div><ion-badge color="light">{{ notes.length }} публікацій</ion-badge></div>
+        <div class="posts">
+          <article class="post-card" *ngFor="let note of notes">
+            <img *ngIf="note.image_data" [src]="note.image_data" alt="Зображення публікації">
+            <div class="post-body"><div class="post-meta">IT COLLEGE HUB <span>•</span> {{ note.created_at | date:'dd.MM.yyyy HH:mm' }}</div><h3>{{ note.title }}</h3><p>{{ note.body }}</p></div>
+          </article>
+          <div class="empty" *ngIf="!notes.length && !loading"><ion-icon name="sparkles-outline"></ion-icon><h3>Тут починаються нові ідеї</h3><p>Створи першу публікацію — вона з'явиться у стрічці.</p></div>
+        </div>
+        <aside class="create-card" id="create">
+          <div class="eyebrow">SHARE YOUR IDEA</div><h2>Нова публікація</h2><p>Поділися навчальним матеріалом або власним проєктом.</p>
+          <ion-item lines="none"><ion-input label="Назва" labelPlacement="stacked" placeholder="Наприклад, Мій IoT-проєкт" [(ngModel)]="title"></ion-input></ion-item>
+          <ion-item lines="none"><ion-textarea label="Опис" labelPlacement="stacked" placeholder="Розкажи про свою ідею..." [autoGrow]="true" [(ngModel)]="body"></ion-textarea></ion-item>
+          <label class="upload"><ion-icon name="image-outline"></ion-icon><span>{{ imageData ? 'Зображення додано' : 'Додати зображення (до 2 МБ)' }}</span><input type="file" accept="image/*" (change)="chooseImage($event)"></label>
+          <img *ngIf="imageData" class="preview" [src]="imageData" alt="Попередній перегляд">
+          <ion-button expand="block" [disabled]="loading" (click)="addNote()">Опублікувати <ion-icon name="send-outline" slot="end"></ion-icon></ion-button>
+          <div class="db-status"><span [class.online]="apiOnline"></span>{{ apiOnline ? 'З’єднання з API активне' : 'Підключення до API...' }}</div>
+        </aside>
+      </section>
+      <footer><span>© 2026 IT College Hub</span><span>Освіта • Технології • Спільнота</span></footer>
+    </main>
+  </ion-content>
+</ion-app>
