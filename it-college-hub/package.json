@@ -13,6 +13,7 @@
     "@angular/core": "^19.2.0",
     "@angular/forms": "^19.2.0",
     "@angular/platform-browser": "^19.2.0",
+    "@angular/router": "^19.2.0",
     "@ionic/angular": "^8.4.3",
     "express": "^4.21.2",
     "pg": "^8.13.3",
